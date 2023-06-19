@@ -1,0 +1,16 @@
+PODS:
+  - SBAIPractice (0.1.0)
+
+DEPENDENCIES:
+  - SBAIPractice (from `../`)
+
+EXTERNAL SOURCES:
+  SBAIPractice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SBAIPractice: a529b374204cdc530bcea6195f6dd9a46b12e64d
+
+PODFILE CHECKSUM: da128ddb599f8d344b7ca96830e8878b0d893031
+
+COCOAPODS: 1.11.3

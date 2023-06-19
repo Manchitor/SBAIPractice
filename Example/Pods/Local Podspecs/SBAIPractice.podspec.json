@@ -1,0 +1,22 @@
+{
+  "name": "SBAIPractice",
+  "version": "0.1.0",
+  "summary": "A short description of SBAIPractice.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Manchitor/SBAIPractice",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Manchitor": "18721218206@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Manchitor/SBAIPractice.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SBAIPractice/Classes/**/*"
+}

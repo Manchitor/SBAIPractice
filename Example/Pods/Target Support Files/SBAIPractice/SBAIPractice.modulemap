@@ -1,0 +1,6 @@
+framework module SBAIPractice {
+  umbrella header "SBAIPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
