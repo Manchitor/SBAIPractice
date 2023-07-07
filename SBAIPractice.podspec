@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBAIPractice'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of SBAIPractice.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,18 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SBAIPractice/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SBAIPractice' => ['SBAIPractice/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SBAIPractice' => ['SBAIPractice/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'MJExtension'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'SDWebImage'
+  s.dependency 'TZImagePickerController'
+
 end
